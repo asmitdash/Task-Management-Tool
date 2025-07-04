@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 import uuid
 
-st.set_page_config(page_title="PDF Task Review", layout="wide")
+st.set_page_config(page_title="Task Management Tool", layout="wide")
 
 # --- Init Session State ---
 if "role" not in st.session_state:
